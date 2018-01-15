@@ -1,0 +1,14 @@
+source "./variable"
+
+set mbox_type=MH
+set folder=~/Mail/
+set spoolfile=+Inbox
+set mbox=+Inbox
+set postponed=+Draft
+set record=+Sent
+set mh_purge=yes
+
+set pop_host=pops://$my_pop
+set pop_user=$my_user
+set pop_pass=$my_pass
+set pop_last=no
