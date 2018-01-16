@@ -4,7 +4,7 @@ set realname=$my_name
 set from=$my_mail
 set use_from=yes
 set smtp_pass=$my_pass
-set smtp_url=smtp://$my_user@$my_smtp
+set smtp_url=$my_smtp
 
 set send_charset=utf-8
 set mime_fwd=yes

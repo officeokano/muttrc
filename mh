@@ -8,7 +8,7 @@ set postponed=+Draft
 set record=+Sent
 set mh_purge=yes
 
-set pop_host=pops://$my_pop
+set pop_host=$my_pop
 set pop_user=$my_user
 set pop_pass=$my_pass
-set pop_last=no
+set pop_last=yes

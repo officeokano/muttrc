@@ -1,10 +1,10 @@
 # source "gpg -dq ~./variable.asc |"
 source "./variable"
 
-source "./mbox"
+#source "./mbox"
 #source "./maildir"
 #source "./mh"
-#source "./imap"
+source "./imap"
 
 source "./smtp"
 

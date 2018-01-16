@@ -7,7 +7,7 @@ set mbox=+spool
 set postponed=+postponed
 set record=+record
 
-set pop_host=pops://$my_pop
+set pop_host=$my_pop
 set pop_user=$my_mail
 set pop_pass=$my_pass
-set pop_last=no
+set pop_last=yes
