@@ -5,3 +5,4 @@ set my_mail="mail@example.com"
 set my_pop="pop.example.com:995"
 set my_imap="imap.example.com:993/"
 set my_smtp="smtp.example.com:587"
+set ssl_starttls=yes
