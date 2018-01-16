@@ -2,8 +2,8 @@ source "./variable"
 
 set mbox_type=Maildir
 set folder=~/Mail
-set spoolfile=+/
-set mbox=+/
+set spoolfile=+spool
+set mbox=+spool
 set postponed=+postponed
 set record=+record
 

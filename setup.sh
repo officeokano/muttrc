@@ -1,8 +1,17 @@
 mkdir ~/Mail
 # for maildir
-mkdir ~/Mail/cur
-mkdir ~/Mail/new
-mkdir ~/Mail/tmp
+mkdir ~/Mail/spool
+mkdir ~/Mail/spool/cur
+mkdir ~/Mail/spool/new
+mkdir ~/Mail/spool/tmp
+mkdir ~/Mail/postponed
+mkdir ~/Mail/postponed/cur
+mkdir ~/Mail/postponed/new
+mkdir ~/Mail/postponed/tmp
+mkdir ~/Mail/record
+mkdir ~/Mail/record/cur
+mkdir ~/Mail/record/new
+mkdir ~/Mail/record/tmp
 # for mh
 mkdir ~/Mail/Inbox
 mkdir ~/Mail/Draft
