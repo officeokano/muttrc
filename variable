@@ -1,8 +1,8 @@
-set my_user="username"
+set my_user="example@gmail.com"
 set my_pass="password"
 set my_name="example"
-set my_mail="mail@example.com"
-set my_pop="pops://pop.example.com:995"
-set my_imap="imaps://imap.example.com:993/"
-set my_smtp="smtp://$my_user@smtp.example.com:587"
+set my_mail="example@gmail.com"
+set my_pop="pops://pop.gmail.com:995"
+set my_imap="imaps://imap.gmail.com:993/"
+set my_smtp="smtp://$my_user@smtp.gmail.com:587"
 set ssl_starttls=yes
