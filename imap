@@ -1,5 +1,3 @@
-source "./variable"
-
 set imap_user=$my_user
 set imap_pass=$my_pass
 set folder=$my_imap

@@ -1,5 +1,3 @@
-source "./variable"
-
 set mbox_type=Maildir
 set folder=~/Mail
 set spoolfile=+spool
