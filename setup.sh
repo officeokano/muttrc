@@ -1,25 +1,26 @@
-mkdir ~/Mail
 # for maildir
-mkdir ~/Mail/spool
-mkdir ~/Mail/spool/cur
-mkdir ~/Mail/spool/new
-mkdir ~/Mail/spool/tmp
-mkdir ~/Mail/postponed
-mkdir ~/Mail/postponed/cur
-mkdir ~/Mail/postponed/new
-mkdir ~/Mail/postponed/tmp
-mkdir ~/Mail/record
-mkdir ~/Mail/record/cur
-mkdir ~/Mail/record/new
-mkdir ~/Mail/record/tmp
+install -v -m 755 -d ~/Mail/maildir/inbox/cur
+install -v -m 755 -d ~/Mail/maildir/inbox/new
+install -v -m 755 -d ~/Mail/maildir/inbox/tmp
+install -v -m 755 -d ~/Mail/maildir/draft/cur
+install -v -m 755 -d ~/Mail/maildir/draft/new
+install -v -m 755 -d ~/Mail/maildir/draft/tmp
+install -v -m 755 -d ~/Mail/maildir/sent/cur
+install -v -m 755 -d ~/Mail/maildir/sent/new
+install -v -m 755 -d ~/Mail/maildir/sent/tmp
+
 # for mh
-mkdir ~/Mail/Inbox
-mkdir ~/Mail/Draft
-mkdir ~/Mail/Sent
-touch ~/Mail/Inbox/.mh_sequences
-touch ~/Mail/Draft/.mh_sequences
-touch ~/Mail/Sent/.mh_sequences
+install -v -m 755 -d ~/Mail/mh/inbox
+install -v -m 755 -d ~/Mail/mh/draft
+install -v -m 755 -d ~/Mail/mh/sent
+touch ~/Mail/inbox/.mh_sequences
+touch ~/Mail/draft/.mh_sequences
+touch ~/Mail/sent/.mh_sequences
+
 # for mbox
-touch ~/Mail/inbox
-touch ~/Mail/draft
-touch ~/Mail/sent
+install -v -m 755 -d ~/Mail/mbox
+touch ~/Mail/mbox/Inbox
+touch ~/Mail/mbox/Draft
+touch ~/Mail//mbox/Sent
+
+printf "done\n"

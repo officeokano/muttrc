@@ -1,9 +1,9 @@
 set mbox_type=mbox
-set folder=~/Mail
-set spoolfile=+inbox
-set mbox=+inbox
-set postponed=+draft
-set record=+sent
+set folder=~/Mail/mbox
+set spoolfile=+Inbox
+set mbox=+Inbox
+set postponed=+Draft
+set record=+Sent
 
 set pop_host=$my_pop
 set pop_user=$my_mail

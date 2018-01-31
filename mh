@@ -1,9 +1,9 @@
 set mbox_type=MH
-set folder=~/Mail/
-set spoolfile=+Inbox
-set mbox=+Inbox
-set postponed=+Draft
-set record=+Sent
+set folder=~/Mail/mh
+set spoolfile=+inbox
+set mbox=+inbox
+set postponed=+draft
+set record=+sent
 set mh_purge=yes
 
 set pop_host=$my_pop
